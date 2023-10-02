@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: afficher bonjour 
-       run: echo"Azul Tout le monde "
+       run: echo " Azul Tout le monde alors  "
      - name: hello everybody
-       run: echo"Bon Stage"
+       run: echo "Bon Stage"
