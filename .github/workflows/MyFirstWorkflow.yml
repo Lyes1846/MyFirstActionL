@@ -1,0 +1,10 @@
+name: FirstWorkflow
+on: workflow_dispatch
+jobs: 
+  first-job: 
+    runs-on: ubuntu-latest
+    steps:
+     - name: afficher bonjour 
+       run: echo"Azul Tout le monde "
+     - name: hello everybody
+       run: echo"Bon Stage"
